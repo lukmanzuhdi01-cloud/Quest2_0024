@@ -4,38 +4,50 @@ public class project1 {
       Scanner ns = new Scanner(System.in);
       System.out.println("Selamat datang di program seleksi asistenD");
       System.out.println("Apakah anda layak menjadi asistenD? (ya/tidak)");
-      double Sdata;
-      double PBobjek;
-      double Bdata;
-      double algoritmaP;
-      double RPlunak;
+      int Sdata;
+      int PBobjek;
+      int Bdata;
+      int algoritmaP;
+      int RPlunak;
 
       System.out.print("Program seleksi asistenD");
       System.out.print("masukan nilai mahasiswa: ");
       String confirm = ns.nextLine();
 
       System.out.print("Masukan nilai Sdata: ");
-      Sdata = ns.nextDouble();
+      Sdata = ns.nextInt();
       System.out.print("Masukan nilai PBobjek: ");
-      PBobjek = ns.nextDouble();
+      PBobjek = ns.nextInt();
       System.out.print("Masukan nilai Bdata: ");
-      Bdata = ns.nextDouble();
+      Bdata = ns.nextInt();
       System.out.print("Masukan nilai algoritmaP: ");
-      algoritmaP = ns.nextDouble();
+      algoritmaP = ns.nextInt();
       System.out.print("Masukan nilai RPlunak: ");
-      RPlunak = ns.nextDouble();
+      RPlunak = ns.nextInt();
       double totalNilai = (Sdata + PBobjek + Bdata + algoritmaP + RPlunak) / 5;
       System.out.println("Total nilai: " + totalNilai);
 
       if (confirm.toLowerCase().equals("ya")) {
-        System.out.println("pilihan Mkuliah yang ingin diambil: ");
+        System.out.println("menu: ");
             System.out.println("1. Sdata");
             System.out.println("2. PBobjek");     
             System.out.println("3. Bdata");
             System.out.println("4. algoritmaP");
             System.out.println("5. RPlunak");
             System.out.println("masukan pilihan anda: ");    
-            double pilihan = ns.nextDouble(); 
+            int pilihan = ns.nextInt(); 
+
+            
+
+            
+             
+
+
+
+
+            
+
+            
 
             
 
