@@ -4,31 +4,56 @@ public class project1 {
       Scanner ns = new Scanner(System.in);
       System.out.println("Selamat datang di program seleksi asistenD");
       System.out.println("Apakah anda layak menjadi asistenD? (ya/tidak)");
-      int Sdata;
-      int PBobjek;
-      int Bdata;
-      int algoritmaP;
-      int RPlunak;
+      double Sdata;
+      double PBobjek;
+      double Bdata;
+      double algoritmaP;
+      double RPlunak;
+      double nilai;
+      double rataR;
+      String predikat;
+      
 
       System.out.print("Program seleksi asistenD");
       System.out.print("masukan nilai mahasiswa: ");
       String confirm = ns.nextLine();
 
       System.out.print("Masukan nilai Sdata: ");
-      Sdata = ns.nextInt();
+      Sdata = ns.nextDouble();
       System.out.print("Masukan nilai PBobjek: ");
-      PBobjek = ns.nextInt();
+      PBobjek = ns.nextDouble();
       System.out.print("Masukan nilai Bdata: ");
-      Bdata = ns.nextInt();
+      Bdata = ns.nextDouble();
       System.out.print("Masukan nilai algoritmaP: ");
-      algoritmaP = ns.nextInt();
+      algoritmaP = ns.nextDouble();
       System.out.print("Masukan nilai RPlunak: ");
-      RPlunak = ns.nextInt();
+      RPlunak = ns.nextDouble();
       double totalNilai = (Sdata + PBobjek + Bdata + algoritmaP + RPlunak) / 5;
       System.out.println("Total nilai: " + totalNilai);
 
-      if (confirm.toLowerCase().equals("ya")) {
-        System.out.println("menu: ");
+      System.out.println("\n=== HASIL PENILAIAN ===");
+      System.out.println("NilaiR");
+
+        double ipksederhana = (totalNilai / 100) * 4;
+      if (totalNilai >= 3.75) {
+            predikat = "A (Sangat Baik)";
+
+        } else if (ipksederhana >= 3.50) {
+            predikat = "AB (Baik Sekali)";
+
+        } else if (ipksederhana >= 3.00) {
+            predikat = "B (Baik)";
+
+        } else if (ipksederhana >= 2.50) {
+            predikat = "BC (Cukup)";
+            
+        } else {
+            predikat = "C (Tidak memenuhi)";
+        }
+
+        
+         if (confirm.toLowerCase().equals("ya")) {
+            System.out.println("menu: ");
             System.out.println("1. Sdata");
             System.out.println("2. PBobjek");     
             System.out.println("3. Bdata");
@@ -37,14 +62,19 @@ public class project1 {
             System.out.println("masukan pilihan anda: ");    
             int pilihan = ns.nextInt(); 
 
-            switch (pilihan) {
-
-
-
-
-
+            
+              
+              
+              
 
               
+
+
+
+
+
+
+
             }
 
             
