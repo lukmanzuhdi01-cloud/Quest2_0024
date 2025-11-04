@@ -89,6 +89,15 @@ public class project1 {
                         else
                             System.out.println("Belum memenuhi syarat.");
                         break;
+                case 5:
+                        if (RPlunak >= 75)
+                            System.out.println("Mahasiswa eligible menjadi Asisten Dosen Rekayasa Perangkat Lunak.");
+                        else
+                            System.out.println("Belum memenuhi syarat.");
+                        break;
+                    default:
+                        System.out.println("Pilihan tidak valid.");
+                        break;
                     
 
 
