@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class project1 {
-    public static void main(String[] args) {
+public static void main(String[] args) {
       Scanner ns = new Scanner(System.in);
       System.out.println("Selamat datang di program seleksi asistenD");
       System.out.println("Apakah anda layak menjadi asistenD? (ya/tidak)");
@@ -97,56 +97,14 @@ public class project1 {
                         break;
                     default:
                         System.out.println("Pilihan tidak valid.");
-                        break;
-                    
-
-
-                
+                        break;     
+                       
+                        
+                       
             }
-            
+      
+            }
 
+            }
+        }
        
-        
-
-            
-              
-              
-              
-
-              
-
-
-
-
-
-
-
-            }
-
-            
-
-            
-             
-
-
-
-
-            
-
-            
-
-            
-
-      }
-
-      
-      
-      
-
-      
-
-
-
-      
-      
-    }
