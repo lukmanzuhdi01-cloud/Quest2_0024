@@ -8,6 +8,13 @@ public class project1 {
       double algoritmaP;
       double RPlunak;
 
+      System.out.print("Program seleksi asistenD");
+      System.out.print("masukan nilai mahasiswa: ");
+
+      
+
+
+
       
       
     }
