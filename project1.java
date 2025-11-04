@@ -71,6 +71,13 @@ public class project1 {
                         else
                             System.out.println("Belum memenuhi syarat.");
                         break;
+                case 2:
+                        if (PBobjek >= 75)
+                            System.out.println("Mahasiswa eligible menjadi Asisten Dosen PBO.");
+                        else
+                            System.out.println("Belum memenuhi syarat.");
+                        break;
+
 
                 
             }
