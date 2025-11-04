@@ -50,7 +50,7 @@ public class project1 {
         } else {
             predikat = "C (Tidak memenuhi)";
         }
-
+            System.out.println("Predikat: " + predikat);
         
          if (confirm.toLowerCase().equals("ya")) {
             System.out.println("menu: ");
@@ -61,6 +61,23 @@ public class project1 {
             System.out.println("5. RPlunak");
             System.out.println("masukan pilihan anda: ");    
             int pilihan = ns.nextInt(); 
+
+            System.out.println("IPK Sederhana: " + ipksederhana);
+
+            switch (pilihan) {
+                case 1:
+                if (Sdata >= 75)
+                            System.out.println("Mahasiswa eligible menjadi Asisten Dosen Struktur Data.");
+                        else
+                            System.out.println("Belum memenuhi syarat.");
+                        break;
+
+                
+            }
+            
+
+       
+        
 
             
               
