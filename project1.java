@@ -37,6 +37,16 @@ public class project1 {
             System.out.println("masukan pilihan anda: ");    
             int pilihan = ns.nextInt(); 
 
+            switch (pilihan) {
+
+
+
+
+
+
+              
+            }
+
             
 
             
