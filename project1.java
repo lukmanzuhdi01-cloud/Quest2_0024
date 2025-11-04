@@ -77,6 +77,13 @@ public class project1 {
                         else
                             System.out.println("Belum memenuhi syarat.");
                         break;
+                case 3:
+                        if (Bdata >= 75)
+                            System.out.println("Mahasiswa eligible menjadi Asisten Dosen Basis Data.");
+                        else
+                            System.out.println("Belum memenuhi syarat.");
+                        break;
+
 
 
                 
