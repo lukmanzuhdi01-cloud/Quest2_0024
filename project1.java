@@ -2,6 +2,8 @@ import java.util.Scanner;
 public class project1 {
     public static void main(String[] args) {
       Scanner ns = new Scanner(System.in);
+      System.out.println("Selamat datang di program seleksi asistenD");
+      System.out.println("Apakah anda layak menjadi asistenD? (ya/tidak)");
       double Sdata;
       double PBobjek;
       double Bdata;
@@ -10,6 +12,7 @@ public class project1 {
 
       System.out.print("Program seleksi asistenD");
       System.out.print("masukan nilai mahasiswa: ");
+      String confirm = ns.nextLine();
 
       System.out.print("Masukan nilai Sdata: ");
       Sdata = ns.nextDouble();
@@ -23,6 +26,24 @@ public class project1 {
       RPlunak = ns.nextDouble();
       double totalNilai = (Sdata + PBobjek + Bdata + algoritmaP + RPlunak) / 5;
       System.out.println("Total nilai: " + totalNilai);
+
+      if (confirm.toLowerCase().equals("ya")) {
+        System.out.println("pilihan Mkuliah yang ingin diambil: ");
+            System.out.println("1. Sdata");
+            System.out.println("2. PBobjek");     
+            System.out.println("3. Bdata");
+            System.out.println("4. algoritmaP");
+            System.out.println("5. RPlunak");
+            System.out.println("masukan pilihan anda: ");    
+            double pilihan = ns.nextDouble(); 
+
+            
+
+      }
+
+      
+      
+      
 
       
 
