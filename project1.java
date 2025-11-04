@@ -83,7 +83,13 @@ public class project1 {
                         else
                             System.out.println("Belum memenuhi syarat.");
                         break;
-
+                case 4:
+                        if (algoritmaP >= 75)
+                            System.out.println("Mahasiswa eligible menjadi Asisten Dosen Algoritma dan Pemrograman.");
+                        else
+                            System.out.println("Belum memenuhi syarat.");
+                        break;
+                    
 
 
                 
